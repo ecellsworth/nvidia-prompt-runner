@@ -119,6 +119,24 @@ Example output files:
 
 ---
 
+## Important: Add Your API Keys
+
+**Before using the script**, you must add your own NVIDIA API keys.
+
+1. Open the file `run_prompt.py`
+2. Replace the following placeholder values with your actual keys:
+
+```python
+"api_key": "YOUR_FLUX_API_KEY"
+"api_key": "YOUR_GLM_API_KEY"
+"api_key": "YOUR_DEEPSEEK_API_KEY"
+"api_key": "YOUR_GEMMA_API_KEY"
+```
+
+You can generate your API keys at [NVIDIA Build](https://build.nvidia.com/models?modal=signin).
+
+---
+
 ## Notes
 
 - The script uses your individual NVIDIA API keys for each model.
@@ -136,3 +154,8 @@ Example output files:
 | Generate image            | `python3 run_prompt.py image-prompt.md --model flux.2-klein-4b` |
 | Check available models    | See the `MODELS` dictionary inside `run_prompt.py`           |
 
+---
+
+## License
+
+This project is open source. Feel free to use and modify it.
