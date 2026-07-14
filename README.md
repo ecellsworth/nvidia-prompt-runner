@@ -1,6 +1,8 @@
 # NVIDIA Prompt Runner - User Guide
 
-A simple command-line tool to generate **text** and **images** using NVIDIA-hosted AI models.
+A simple command-line tool to generate **text** and **images** using NVIDIA-hosted AI models on your local desktop. 
+
+I wrote a light-weight script that reads your prompts from markdown files and sends them to the API endpoint where the model processes your request and sents back its response to your desktop. It is set uo to use a text and image model, so you can generate images or ask it to fix your code. 
 
 See full installation [TUTORIAL](https://ecellsworth.github.io/tutorials/prompt-runner/) for detailed instructions. 
 
