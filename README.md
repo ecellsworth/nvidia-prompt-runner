@@ -2,6 +2,8 @@
 
 A simple command-line tool to generate **text** and **images** using NVIDIA-hosted AI models.
 
+See full installation [TUTORIAL](https://ecellsworth.github.io/tutorials/prompt-runner/) for detailed instructions. 
+
 ---
 
 ## Requirments
